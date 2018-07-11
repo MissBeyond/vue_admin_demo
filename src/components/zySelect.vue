@@ -10,11 +10,11 @@
  * @author   曹宏涛<caohongtao@qianhaikeji.cn>
 -->
 <template>
-  <div >
+  <div>
     <el-select ref="input" v-bind:value="simpleOptionSelected" v-on:input="updateValue" @change="change" placeholder="请选择" :disabled="disabled">
       <el-option v-for="item in simpleOptions" :label="item" :value="item"></el-option>
     </el-select>
-  <div>
+  </div>
 </template>
 
 <script>

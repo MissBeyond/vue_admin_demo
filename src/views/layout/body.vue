@@ -69,6 +69,12 @@ export default {
           subnavs: [
             {title: '消息列表', router: '/message'}
           ]
+        },
+        {
+          title: '订单管理',
+          subnavs: [
+            {title: '订单列表', router: '/order'}
+          ]
         }
       ]
     }

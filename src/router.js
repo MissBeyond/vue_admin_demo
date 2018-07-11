@@ -33,6 +33,8 @@ import worksVideo from './views/works/video'
 import worksMovie from './views/works/movie'
 
 import message from './views/message'
+import order from './views/order'
+import detail from './views/order/detail.vue'
 
 const routers = new VueRouter({
   mode: 'history',
@@ -117,6 +119,16 @@ const routers = new VueRouter({
           path: 'message',
           name: '消息管理-消息列表',
           component: message
+        },
+        {
+          path: 'order',
+          name: '订单管理-订单列表',
+          component: order
+        },
+        {
+          path: 'detail',
+          name: '详情页',
+          component: detail
         },
         {
           path: 'profile',
